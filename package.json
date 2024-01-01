@@ -1,0 +1,19 @@
+{
+  "name": "simple-front-jwt-auth",
+  "version": "1.0.1",
+  "description": "Simple JWT authentication for client side",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Damian Duda <duda.damian00@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dadudab/simple-front-jwt-auth.git"
+  },
+  "dependencies": {
+    "jwt-decode": "^4.0.0"
+  }
+}
