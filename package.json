@@ -1,6 +1,6 @@
 {
   "name": "simple-front-jwt-auth",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple JWT authentication for client side",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,6 +13,15 @@
     "type": "git",
     "url": "https://github.com/dadudab/simple-front-jwt-auth.git"
   },
+  "keywords": [
+    "authentication",
+    "auth",
+    "jwt",
+    "jwt-auth",
+    "token",
+    "front-auth",
+    "json web token"
+  ],
   "dependencies": {
     "jwt-decode": "^4.0.0"
   }
