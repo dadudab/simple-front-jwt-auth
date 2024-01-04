@@ -14,6 +14,7 @@ export interface DecodedToken {
 
 export class AuthenticatedUser {
   id: number | string;
+  token: string;
   isAdmin?: boolean;
   roles?: any;
 }
@@ -50,6 +51,7 @@ export const handleLogin = (token: string, expiresInSeconds: number): void => {
 
   user = new AuthenticatedUser();
   user.id = decodedToken.sub;
+  user.token = token;
   user.isAdmin = decodedToken.isAdmin;
   user.roles = decodedToken.roles;
 
@@ -82,6 +84,7 @@ export const handleAutologin = (
 
   user = new AuthenticatedUser();
   user.id = decodedToken.sub;
+  user.token = token;
   user.isAdmin = decodedToken.isAdmin;
   user.roles = decodedToken.roles;
 
