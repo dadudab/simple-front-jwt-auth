@@ -34,7 +34,7 @@ setAutologinCallback(() => {
     // do something
 });
 
-// login user with token and set token expiration in seconds
+// check if user should be authenticated then log in or log out user
 checkAutologin();
 ```
 
